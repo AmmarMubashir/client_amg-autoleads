@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 1.2rem;
+  border: 1px solid rgb(0, 0, 0, 0.4);
+}
+label {
+  font-weight: bold;
+}
+label span {
+  color: red;
+}
+.nav {
+  height: 89px;
+  width: 100%;
+  background: #000205;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid white;
+}
+.nav img {
+  width: 90px;
+  margin-left: 20px;
+}
+
+.hero_section {
+  height: 100vh;
+  width: 100%;
+  background: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.hero-content {
+  margin-left: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  color: white;
+}
+.hero-content h1 {
+  font-size: 2.1rem;
+}
+.hero-content h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.hero-content ul {
+  margin-top: 10px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.hero-content ul li {
+  font-size: 1.2rem;
+}
+
+.hero_end {
+  height: 79px;
+  width: 100%;
+  background: #000205;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 0;
+}
+.hero_content_1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.hero_content_2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.form {
+  min-height: 70vh;
+  background: white;
+  padding: 20px;
+}
+.form form {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+form p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.Name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.completeName {
+  display: flex;
+  gap: 20px;
+}
+.input_column {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.btn {
+  background: #066aab;
+  width: 100px;
+  padding: 10px 5px;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.footer {
+  height: 70px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  padding-top: 10px;
+  width: 100%;
+  color: #334155;
+  text-align: center;
+}
+
+@media (max-width: 1133px) {
+  .hero_section img {
+    right: 10%;
+  }
+}
+@media (max-width: 822px) {
+  .hero_section img {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+  .hero_content_1 {
+    font-size: 1rem;
+  }
+  .hero_content_2 {
+    font-size: 0.8rem;
+  }
+}
