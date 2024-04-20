@@ -151,6 +151,10 @@ form p {
   .hero_content_1 {
     font-size: 1rem;
   }
+  .hero_section {
+    height: 50vh;
+    background-size: auto;
+  }
   .hero_content_2 {
     font-size: 0.8rem;
   }
