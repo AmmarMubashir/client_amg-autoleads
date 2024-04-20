@@ -137,11 +137,6 @@ form p {
   text-align: center;
 }
 
-@media (max-width: 1133px) {
-  .hero_section img {
-    right: 10%;
-  }
-}
 @media (max-width: 822px) {
   .hero_section img {
     display: none;
@@ -152,8 +147,11 @@ form p {
     font-size: 1rem;
   }
   .hero_section {
-    height: 80vh;
+    height: 70vh;
     background-size: auto;
+  }
+  .hero-content {
+    height: 100%;
   }
   .hero-content {
     gap: 30px;
